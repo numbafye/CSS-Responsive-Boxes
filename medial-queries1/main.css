@@ -1,3 +1,30 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  margin: 0em;
+  padding: 0em;
+}
+
+.a {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.b {
+  border: .5em solid black;
+  text-align: center;
+  margin: 1.3em .2em;
+  padding: 14.9em;
+}
+
+.c {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+}
