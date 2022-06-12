@@ -1,3 +1,118 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.a {
+  border: .5em solid black;
+  text-align: center;
+  margin: 1em .2em 1em .2em;
+  padding: 5em 2em;
+  width: 100%;
+}
+
+.b {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.c {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.d {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.e {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.f {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+
+@media (min-width: 700px) {
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.a {
+  border: .5em solid black;
+  text-align: center;
+  margin: 1em .2em 1em .2em;
+  padding: 5em 20em;
+  width: 100%;
+  
+}
+
+.b {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 5em;
+  width: 60%;
+  
+}
+
+.c {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.d {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.e {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+.f {
+  border: .5em solid black;
+  text-align: center;
+  margin: 0em .2em 0em .2em;
+  padding: 2em;
+  
+}
+
+}
