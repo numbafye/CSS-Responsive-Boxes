@@ -5,6 +5,8 @@ body {
 .container {
   margin: 0em;
   padding: 0em;
+  display: flex;
+  flex-direction: column;
 }
 
 .a {
@@ -18,8 +20,8 @@ body {
 .b {
   border: .5em solid black;
   text-align: center;
-  margin: 1.3em .2em;
-  padding: 14.9em;
+  margin: 1em .2em 1em .2em;
+  padding: 14.9em 2em;
 }
 
 .c {
@@ -28,3 +30,38 @@ body {
   margin: 0em .2em 0em .2em;
   padding: 2em;
 }
+
+ @media (min-width: 700px) {
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+ 
+  }
+
+  .a {
+    border: .5em solid black;
+    text-align: center;
+    margin: 0em 1.5em;
+    padding: 2.5em 56.6em;
+    
+  }
+  
+  .b {
+    border: .5em solid black;
+    text-align: center;
+    margin: 1em 0em 1em 1.5em;
+    padding: 20em 45em;
+    
+    
+  }
+  
+  .c {
+    border: .5em solid black;
+    text-align: center;
+    margin: 1em 0em 1em 1em;
+    padding: 20em 10em;
+    
+  }
+ }
